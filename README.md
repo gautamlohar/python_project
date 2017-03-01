@@ -22,3 +22,11 @@
 -	This will be the URL of your django framework http://127.0.0.1:8000/
 -	This will be the ADMIN URL of your django framework http://127.0.0.1:8000/admin
 
+# Python Models nd createing a simple Blog Modules
+- TO start first create the app blog with the command "django-admin.py startapp blog", if all goes according to plan, you’ll now have a directory structure like below. If yours isn’t, then move the blog directory so it’s sitting inside the project root.
+- Edit the \first_project\blog\settings.py add 'blog' on INSTALLED_APP
+- Edit the \first_project\blog\models.py and add the "Post" model and other lines of code as mentioned in the file stored here
+- Edit the \first_project\blog\admin.py and Register Post models here
+- On command prompt run command "python manage.py makemigrations"
+- Then run "python manage.py migrate"
+- Now you can check blog and everything working fine on the URL http://127.0.0.1:8000/admin/blog/
