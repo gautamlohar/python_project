@@ -1,4 +1,4 @@
-# python_project 1
+# Python Project
 > Install Python 
 - Use git bash or command prompt
 - Download the python.exe   Python 27
